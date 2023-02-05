@@ -21,6 +21,8 @@ class Pice extends Model
 
 
 
+      
+
     public function vrsta()
     {
        return $this->belongsTo(Vrsta::class);

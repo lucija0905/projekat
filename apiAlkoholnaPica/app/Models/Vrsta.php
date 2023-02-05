@@ -13,6 +13,8 @@ class Vrsta extends Model
         'naziv'
     ];
 
+
+    
     public function pica(){
         return $this->hasMany(Pice::class);
     }

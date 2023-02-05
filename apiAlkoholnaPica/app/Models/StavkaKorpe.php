@@ -14,6 +14,8 @@ class StavkaKorpe extends Model
         'kolicina',
         
     ];
+
+    
     public function korpa()
     {
         return $this->belongsTo(Korpa::class);

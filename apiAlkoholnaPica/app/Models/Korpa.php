@@ -13,6 +13,9 @@ class Korpa extends Model
         
     ];
 
+
+
+    
     public function stavke()
     {
         return $this->hasMany(StavkaKorpe::class);
